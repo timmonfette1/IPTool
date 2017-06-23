@@ -12,7 +12,17 @@ The script is recommended for use in automation.
 
 How to Install Rust
 ------------
-TODO
+IP Tool (and it's core) is written in the Rust programming language. If you plan on using this tool,
+you'll need to have Rust and it's package manager Cargo installed on your system.<br />
+A couple useful links to aid in this installation can be found at:
+
+ - https://www.rust-lang.org/en-US/install.html
+ - http://doc.crates.io/
+
+In the future I might provide a Makefile task to install this automatically if not already installed.<br />
+If you're looking for IP Tool in a language that isn't Rust, I'm working on an FFI for it and will
+include libraries for various languages along with it. Once it's completed, those libraries can be used
+with other languages to gain iptool-core functionality and you can wrap your own interface(s) around it. 
 
 How to Build
 ------------
@@ -86,7 +96,7 @@ Valid formats for that are as follows:
 Future Enhancements
 -------------
 I have written an FFI interface around IP Tool Core and I would like to create
-librarys for various languages that can allow the tool to be used in a variety
+libraries for various languages that can allow the tool to be used in a variety
 of different programming languages.
 
 When that is written, it will probably exist in it's own repository (iptool-ffi).<br />
