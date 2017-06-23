@@ -20,6 +20,7 @@ A couple useful links to aid in this installation can be found at:
  - http://doc.crates.io/
 
 In the future I might provide a Makefile task to install this automatically if not already installed.<br />
+
 If you're looking for IP Tool in a language that isn't Rust, I'm working on an FFI for it and will
 include libraries for various languages along with it. Once it's completed, those libraries can be used
 with other languages to gain iptool-core functionality and you can wrap your own interface(s) around it. 
@@ -78,12 +79,13 @@ For more information refer to the above "How to Build" section.
 IP Tool Script Usage
 ------------
 Refer to the following guidelines for running the tool:<br />
-  -- Validate IPv4: `./target/release/iptool valid_ipv4 <address>`<br />
-  -- IPv4 to IPv6: `./target/release/iptool ipv4_ipv6 <address>`<br />
-  -- IPv4 to binary: `./target/release/iptool ipv4_binary <address>`<br />
-  -- Validate IPv6: `./target/release/iptool valid_ipv6 <address>`<br />
-  -- IPv6 to IPv4: `./target/release/iptool ipv6_ipv4 <address>`<br />
-  -- IPv6 to binary: `./target/release/iptool ipv6_binary <address>`<br />
+
+  - Validate IPv4: `./target/release/iptool valid_ipv4 <address>`<br />
+  - IPv4 to IPv6: `./target/release/iptool ipv4_ipv6 <address>`<br />
+  - IPv4 to binary: `./target/release/iptool ipv4_binary <address>`<br />
+  - Validate IPv6: `./target/release/iptool valid_ipv6 <address>`<br />
+  - IPv6 to IPv4: `./target/release/iptool ipv6_ipv4 <address>`<br />
+  - IPv6 to binary: `./target/release/iptool ipv6_binary <address>`<br />
 
 Any other usage will result in a printing of the above.
 
