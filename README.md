@@ -21,9 +21,14 @@ A couple useful links to aid in this installation can be found at:
 
 In the future I might provide a Makefile task to install this automatically if not already installed.<br />
 
-If you're looking for IP Tool in a language that isn't Rust, I'm working on an FFI for it and will
-include libraries for various languages along with it. Once it's completed, those libraries can be used
-with other languages to gain iptool-core functionality and you can wrap your own interface(s) around it. 
+Non-Rust IP Tool
+-------------
+If you're looking for IP Tool in a language that isn't Rust, I've written an FFI for it.<br />
+The [IP Tool FFI](https://github.com/timmonfette1/iptool-ffi) contains iptool-core exposed as a C-type FFI
+that can be used to bring the functionality of this tool to various other languages.<br />
+You can build a number of libraries for different programming languages from the provided bindings.
+
+After that, just import/include the built libraries in the source code.
 
 How to Build
 ------------
@@ -94,12 +99,3 @@ Valid formats for that are as follows:
 
   - 2002::xxxx:xxxx or
   - 2002:xxxx:xxxx::
-
-Future Enhancements
--------------
-I have written an FFI interface around IP Tool Core and I would like to create
-libraries for various languages that can allow the tool to be used in a variety
-of different programming languages.
-
-When that is written, it will probably exist in it's own repository (iptool-ffi).<br />
-However there will be a link to it here when it's completed for ease of access.
