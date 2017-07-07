@@ -64,17 +64,6 @@ but it never hurts to make sure you check for yourself before doing this.
 I recommend updating your PATH variable in your ~/.profile to include the path
 to the IP Tool executable for ease of access.
 
-Supported Functions
-------------
-The tool supports the following IP functions:
-
-  - Validates an IPv4 address.
-  - Converts an IPv4 address to IPv6.
-  - Converts an IPv4 address to it's binary representation.
-  - Validates an IPv6 address.
-  - Converts an IPv6 address to IPv4;
-  - Converts an IPv6 address to it's binary representation.
-
 IP Tool UI Usage
 ------------
 IP Tool UI is very self explanatory.<br />
