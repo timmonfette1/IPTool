@@ -1,7 +1,7 @@
 IP Tool
 =============
 Tool for IPv4 and IPv6 related work.<br />
-Utilizes the [IP Tool Core](https://github.com/timmonfette1/iptool_core) and has two
+Utilizes the [IP Tool Core](https://github.com/timmonfette1/iptool-core) and has two
 different interfaces for use:
 
   - A text based UI (IP Tool UI)<br />
